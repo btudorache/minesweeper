@@ -10,7 +10,7 @@ Clone the repository locally:
 cd minesweeper/
 sudo apt-get install python3-pygame   # install pygame
 sudo apt-get install python3-tk       # install tkinter
-python3 snake_game.py
+python3 minesweeper_game.py
 ~~~
 
 ## Media
