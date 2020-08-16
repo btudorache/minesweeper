@@ -265,7 +265,7 @@ class Cell:
         self.flagged = False
 
         self.color = settings.cell_cover_color
-        self.flag_image = pygame.image.load('images/flag.bmp')
+        self.flag_image = pygame.image.load('media/flag.bmp')
         self.game_screen = screen
 
     def draw_unrevealed_cell(self):
@@ -294,8 +294,8 @@ class Cell:
 
     def init_numbered_cell(self, bombs):
         self.type = 1
-        self.image = pygame.image.load('images/' + str(bombs) + '.bmp')
+        self.image = pygame.image.load('media/' + str(bombs) + '.bmp')
 
     def init_bomb_cell(self):
         self.type = 2
-        self.image = pygame.image.load('images/bomb.bmp')
+        self.image = pygame.image.load('media/bomb.bmp')

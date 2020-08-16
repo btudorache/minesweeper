@@ -15,7 +15,7 @@ class MineSweeper:
         self.settings = Settings(difficulty)
 
         self.screen = pygame.display.set_mode((self.settings.screen_width, self.settings.screen_height))
-        pygame.display.set_icon(pygame.image.load('images/logo.bmp'))
+        pygame.display.set_icon(pygame.image.load('media/logo.bmp'))
         pygame.display.set_caption("Minesweeper")
 
         self.gameboard = Gameboard(self.settings, self.screen)
