@@ -14,4 +14,4 @@ python3 minesweeper_game.py
 ~~~
 
 ## Media
-![Screenshot](https://github.com/btudorache/minesweeper/blob/master/media/game_capture.png)
+![Screenshot](https://github.com/btudorache/minesweeper/blob/master/media/game_capture.PNG)
