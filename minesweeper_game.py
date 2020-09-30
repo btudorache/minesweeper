@@ -35,6 +35,7 @@ class MineSweeper:
             self._update_screen()
             pygame.display.flip()
             self._check_end_game()
+            # TODO: add endgame check condition
 
     def _check_events(self):
         for event in pygame.event.get():
